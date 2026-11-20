@@ -155,3 +155,14 @@ textarea {
   white-space: nowrap;
   border: 0;
 }
+
+/* Paper-first reset and shared GatePass visual language. */
+html,body,#root{background:#F6F1EF;color:#1A43B4}
+body{min-height:100vh;background-color:#F6F1EF}
+a{color:#1A43B4}a:hover{color:#C50F72}
+button,input,select,textarea{font-family:var(--font-sans)}
+:focus-visible{outline:3px solid #FF2FA2;outline-offset:3px}
+::selection{background:#F5BDDB;color:#16338F}
+::-webkit-scrollbar-track{background:#F6F1EF}
+::-webkit-scrollbar-thumb{background:#1A43B4;border:2px solid #F6F1EF}
+.grain-layer,body::after{opacity:.035}
