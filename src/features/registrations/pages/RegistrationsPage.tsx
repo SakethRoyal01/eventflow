@@ -207,7 +207,7 @@ export function RegistrationsPage() {
 
       <style>{`
         .ef-import-page{display:flex;flex-direction:column;gap:24px;color:var(--color-text)}
-        .ef-import-intro{display:flex;gap:16px;align-items:flex-start;padding:22px 24px;background:linear-gradient(110deg,rgba(131,77,251,.12),rgba(24,16,43,.55));border:1px solid var(--color-border);border-radius:var(--radius-lg)}
+        .ef-import-intro{display:flex;gap:16px;align-items:flex-start;padding:22px 24px;background:linear-gradient(110deg,rgba(255,47,162,.12),rgba(248,213,228,.62));border:1px solid var(--color-border);border-radius:var(--radius-lg)}
         .ef-import-intro__icon{width:44px;height:44px;display:grid;place-items:center;border-radius:12px;background:var(--color-primary-subtle);color:var(--color-primary);flex-shrink:0}
         .ef-import-eyebrow{font-size:10px;letter-spacing:.14em;font-weight:700;color:var(--color-primary);margin:0 0 7px}
         .ef-import-intro h2{font-size:20px;margin:0 0 6px;font-weight:650}
@@ -218,7 +218,7 @@ export function RegistrationsPage() {
         .ef-import-panel h3{font-size:15px;margin:0 0 5px;font-weight:650}
         .ef-import-panel__heading p{font-size:12px;color:var(--color-text-muted);margin:0}
         .ef-import-limit{font-size:10px;color:var(--color-text-muted);white-space:nowrap}
-        .ef-import-drop{min-height:142px;border:1px dashed var(--color-primary-border);border-radius:var(--radius-md);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;background:rgba(131,77,251,.035);cursor:pointer;text-align:center}
+        .ef-import-drop{min-height:142px;border:1px dashed var(--color-primary-border);border-radius:var(--radius-md);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;background:rgba(26,67,180,.035);cursor:pointer;text-align:center}
         .ef-import-drop input{position:absolute;width:1px;height:1px;opacity:0}
         .ef-import-drop:focus-within{outline:2px solid var(--color-primary);outline-offset:3px}
         .ef-import-drop__icon{color:var(--color-primary);margin-bottom:2px}

@@ -1,4 +1,3 @@
-import React from 'react';
 import { createBrowserRouter, Navigate } from 'react-router-dom';
 import { AppLayout } from '@/components/layout/AppLayout.tsx';
 import { DashboardPage } from '@/features/dashboard/pages/DashboardPage.tsx';

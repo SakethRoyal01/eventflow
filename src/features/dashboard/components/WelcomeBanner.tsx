@@ -40,7 +40,7 @@ export const WelcomeBanner: React.FC<WelcomeBannerProps> = ({
         </h1>
         <p className="ef-welcome-banner__desc">
           Managing <strong className="ef-welcome-banner__ws">{workspace?.name ?? 'Workspace'}</strong>.
-          Real-time attendee flow, gate QR validation, registrations, and payment reconciliation are active.
+          Review your event operations, attendee flow, registrations, and payment workflows in this frontend preview.
         </p>
       </div>
 

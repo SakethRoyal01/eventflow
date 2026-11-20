@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap');
 /**
  * EventFlow Design System - Typography Tokens
  * Premium, editorial, modern sans-serif with monospace accents for metrics
@@ -99,8 +100,6 @@ code, kbd, samp, pre {
 .tabular-nums {
   font-variant-numeric: tabular-nums;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap');
 :root{--font-sans:'Barlow Semi Condensed','Arial Narrow',sans-serif;--font-display:'Oswald','Arial Narrow',sans-serif;--font-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 body{font-family:var(--font-sans);color:var(--color-text)}
 h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--color-text)}
