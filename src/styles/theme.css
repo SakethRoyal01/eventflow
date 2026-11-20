@@ -1,0 +1,145 @@
+/**
+ * EventFlow Design System - Central Theme Tokens
+ *
+ * Exact Brand Palette:
+ * - Electric Violet: #834DFB
+ * - Turbo:           #F0E100
+ * - Haiti:           #18102B
+ * - Blue Chalk:      #F5F3FF
+ * - Base Neutral:    #08070C (Primary application background)
+ */
+
+:root {
+  /* ==========================================================================
+     Core Brand Tokens
+     ========================================================================== */
+  --brand-electric-violet: #834DFB;
+  --brand-turbo: #F0E100;
+  --brand-haiti: #18102B;
+  --brand-blue-chalk: #F5F3FF;
+  --brand-black: #08070C;
+
+  /* ==========================================================================
+     Semantic Color Tokens
+     ========================================================================== */
+  /* Primary (Electric Violet) */
+  --color-primary: #834DFB;
+  --color-primary-hover: #9666FC;
+  --color-primary-active: #723DE8;
+  --color-primary-subtle: rgba(131, 77, 251, 0.12);
+  --color-primary-subtle-hover: rgba(131, 77, 251, 0.20);
+  --color-primary-border: rgba(131, 77, 251, 0.32);
+  --color-primary-contrast: #F5F3FF;
+
+  /* Accent (Turbo - used sparingly for high-visibility highlights & badges) */
+  --color-accent: #F0E100;
+  --color-accent-hover: #F8ED38;
+  --color-accent-active: #D9CB00;
+  --color-accent-subtle: rgba(240, 225, 0, 0.12);
+  --color-accent-border: rgba(240, 225, 0, 0.30);
+  --color-accent-contrast: #08070C; /* Dark text for contrast on Turbo */
+
+  /* Application Background */
+  --color-background: #08070C;
+  --color-background-subtle: #0D0916;
+
+  /* Surfaces (Haiti variations) */
+  --color-surface-subtle: #110B1F;
+  --color-surface: #18102B;          /* Main Haiti surface */
+  --color-surface-hover: #201639;
+  --color-surface-card: #1D1434;
+  --color-surface-elevated: #241940;
+  --color-surface-floating: #2B1E4A;
+  --color-surface-overlay: rgba(8, 7, 12, 0.78);
+
+  /* Typography Colors (Blue Chalk derivations) */
+  --color-text: #F5F3FF;             /* Blue Chalk */
+  --color-text-secondary: #C2BBDA;
+  --color-text-muted: #82789E;
+  --color-text-subtle: #564D71;
+  --color-text-inverse: #08070C;
+
+  /* Borders & Dividers */
+  --color-border-subtle: rgba(245, 243, 255, 0.05);
+  --color-border: rgba(245, 243, 255, 0.09);
+  --color-border-strong: rgba(245, 243, 255, 0.16);
+  --color-border-active: #834DFB;
+
+  /* Interactive & Focus */
+  --color-focus-ring: rgba(131, 77, 251, 0.55);
+  --color-selection: rgba(131, 77, 251, 0.3);
+
+  /* Functional Status Tokens */
+  --color-success: #10B981;
+  --color-success-subtle: rgba(16, 185, 129, 0.12);
+  --color-success-border: rgba(16, 185, 129, 0.28);
+  --color-success-text: #34D399;
+
+  --color-warning: #F59E0B;
+  --color-warning-subtle: rgba(245, 158, 11, 0.12);
+  --color-warning-border: rgba(245, 158, 11, 0.28);
+  --color-warning-text: #FBBF24;
+
+  --color-error: #EF4444;
+  --color-error-subtle: rgba(239, 68, 68, 0.12);
+  --color-error-border: rgba(239, 68, 68, 0.28);
+  --color-error-text: #F87171;
+
+  --color-info: #834DFB;
+  --color-info-subtle: rgba(131, 77, 251, 0.12);
+  --color-info-border: rgba(131, 77, 251, 0.28);
+  --color-info-text: #A78BFA;
+
+  /* ==========================================================================
+     Layout & Geometry Tokens
+     ========================================================================== */
+  --sidebar-width: 260px;
+  --sidebar-collapsed-width: 74px;
+  --header-height: 64px;
+  --mobile-nav-height: 60px;
+  --content-max-width: 1400px;
+
+  /* Spacing Scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Border Radii: Controlled, modern, geometric, never excessively rounded */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* Shadows: Deep, refined dark mode shadows without harsh outlines */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 24px rgba(131, 77, 251, 0.16);
+  --shadow-accent-glow: 0 0 20px rgba(240, 225, 0, 0.2);
+
+  /* Transitions */
+  --transition-fast: 140ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 220ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 320ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Z-Index Hierarchy */
+  --z-base: 0;
+  --z-card: 1;
+  --z-sticky: 10;
+  --z-header: 30;
+  --z-sidebar: 40;
+  --z-overlay: 50;
+  --z-modal: 60;
+  --z-dropdown: 70;
+  --z-tooltip: 80;
+  --z-grain: 9999;
+}

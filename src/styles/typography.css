@@ -1,0 +1,101 @@
+/**
+ * EventFlow Design System - Typography Tokens
+ * Premium, editorial, modern sans-serif with monospace accents for metrics
+ */
+
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+
+  /* Font Sizes & Line Heights */
+  --text-xs: 0.75rem;     /* 12px */
+  --text-xs-lh: 1rem;     /* 16px */
+
+  --text-sm: 0.84375rem;  /* 13.5px */
+  --text-sm-lh: 1.25rem;  /* 20px */
+
+  --text-base: 0.9375rem; /* 15px */
+  --text-base-lh: 1.5rem; /* 24px */
+
+  --text-lg: 1.0625rem;  /* 17px */
+  --text-lg-lh: 1.625rem;/* 26px */
+
+  --text-xl: 1.25rem;     /* 20px */
+  --text-xl-lh: 1.75rem;  /* 28px */
+
+  --text-2xl: 1.5rem;     /* 24px */
+  --text-2xl-lh: 2rem;    /* 32px */
+
+  --text-3xl: 1.875rem;   /* 30px */
+  --text-3xl-lh: 2.25rem; /* 36px */
+
+  --text-4xl: 2.25rem;    /* 36px */
+  --text-4xl-lh: 2.625rem;/* 42px */
+
+  /* Font Weights */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Letter Spacing */
+  --tracking-tighter: -0.03em;
+  --tracking-tight: -0.015em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.025em;
+  --tracking-wider: 0.05em;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  line-height: var(--text-base-lh);
+  font-weight: var(--font-weight-normal);
+  color: var(--color-text);
+  letter-spacing: var(--tracking-normal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--tracking-tight);
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--text-3xl);
+  line-height: var(--text-3xl-lh);
+  letter-spacing: var(--tracking-tighter);
+}
+
+h2 {
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl-lh);
+}
+
+h3 {
+  font-size: var(--text-xl);
+  line-height: var(--text-xl-lh);
+}
+
+h4 {
+  font-size: var(--text-lg);
+  line-height: var(--text-lg-lh);
+}
+
+p {
+  margin: 0;
+  color: var(--color-text-secondary);
+}
+
+code, kbd, samp, pre {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
